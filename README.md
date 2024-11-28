@@ -1,4 +1,4 @@
-## Climate Action Using Machine Learning for Sustainable Development  🌡️🌪️🌩️⛈️🌧️☁️ :- 
+## Climate Action Using Machine Learning for Sustainable Development ☁️ :- 
 
 ## 1. Introduction:
 The primary objective of this project is to develop a machine learning
