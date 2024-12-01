@@ -50,39 +50,6 @@ model accuracy.
 - **Scikit-Learn:** Easy implementation, variety of algorithms, and effective performance
 metrics.
 
-## 6. Model Implementation
-A simple Linear Regression model was used to predict coal emissions. The model was
-trained and tested on energy consumption and renewable production data, aiming for
-transparency and interpretability.
-**Code Example:**
- #Prepare data for modeling
- X = data[['Residential_Consumption', 'Commercial_Consumption', 'Industrial_Consumption',
-'Solar_Production', 'Wind_Production']]
-y = data['Coal_Emissions']
-#Split the dataset into training and testing sets
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-from sklearn.linear_model import LinearRegression# Create a linear regression model
-model = LinearRegression()
-model.fit(X_train, y_train)
-#Make predictions on the test set
-y_pred = model.predict(X_test)
-#Evaluate the model
-from sklearn.metrics import mean_squared_error, r2_score
-mse = mean_squared_error(y_test, y_pred)
-r2 = r2_score(y_test, y_pred)
-#Display the evaluation results
-print(f'Mean Squared Error: {mse:.2f}')
-print(f'R² Score: {r2:.2f}')
-#Plotting the predicted vs actual emissions
-plt.figure(figsize=(8, 6))
-plt.scatter(y_test, y_pred, color='blue')
-plt.plot(y_test, y_test, color='red', linestyle='--') # Line for perfect predictions
-plt.xlabel('Actual Coal Emissions')
-plt.ylabel('Predicted Coal Emissions')
-plt.title('Actual vs Predicted Coal Emissions')
-plt.show()
-
 ## 7. Results and Evaluation
 - **Performance Metrics:** The model achieved an R² score of 0.78, explaining 78% of the
 variance in emissions.
