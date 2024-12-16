@@ -6,7 +6,7 @@ model that analyzes energy consumption patterns to recommend optimal energy usag
 minimizes carbon emissions. By identifying trends in energy consumption and emissions,
 this project aims to contribute towards actionable strategies that support carbon footprint
 reduction, aligning with global sustainability goals.
-## **Motivation:** :
+## **Motivation:**
 This project is inspired by the United Nations Sustainable Development Goals
 (SDGs), especially the goal centered on climate action. As global energy demands rise, there
 is an urgent need to adopt efficient energy practices that reduce carbon footprints and
@@ -17,12 +17,12 @@ foster sustainable resource management.
 **Dataset Description:**
 The dataset combines monthly data on energy consumption, renewable energy production,
 and carbon emissions, helping to identify patterns that reduce emissions:
-1. **Date:** Month and year of each record.
-2. **Energy Consumption:** Residential, Commercial, Industrial: Energy use in different
-sectors.
-3. **Renewable Production (MWh):** Solar, Wind: Renewable energy generation metrics.
-4. **Carbon Emissions (metric tons):** Coal, Natural Gas, Oil: Emissions from each energy
-source.
+ - 1. **Date:** Month and year of each record.
+ -  2. **Energy Consumption:** Residential, Commercial, Industrial: Energy use in different
+  sectors.
+ - 3. **Renewable Production (MWh):** Solar, Wind: Renewable energy generation metrics.
+ - 4. **Carbon Emissions (metric tons):** Coal, Natural Gas, Oil: Emissions from each energy
+  source.
 
 ## 3.Exploratory Data Analysis (EDA): 
 - **Distribution and Outliers:** Histograms revealed general distribution trends, while box plots
