@@ -54,7 +54,7 @@ metrics.
 - **Performance Metrics:** The model achieved an R² score of 0.78, explaining 78% of the
 variance in emissions.
 - **Prediction Accuracy:** A scatter plot showed that predictions closely matched actual
-emissions, proving the model’s baseline effectiveness.
+emissions, proving the models baseline effectiveness.
 
 ## 8. Conclusion and Future Work
 The project demonstrates a practical approach to predicting coal emissions based on energy
