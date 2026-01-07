@@ -69,3 +69,9 @@ data to capture broader factors affecting emissions.
 ## 9. References
 - Kaggle Dataset
 - Scikit-Learn Documentation and Google Colaboratory
+
+## 👨‍💻 Author :-
+
+**Raj Shivade**  
+📘 [LinkedIn](http://www.linkedin.com/in/raj-shivade25)  
+💻 [GitHub](https://github.com/RajShivade)
